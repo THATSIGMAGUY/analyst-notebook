@@ -1,0 +1,5212 @@
+{
+  "schemaVersion": 1,
+  "caseId": "PP-2026-DEMO",
+  "caseTitle": "Pink Panthers — synthetic demo (NOT real data)",
+  "caseHypothesis": "A car-rental fixer in Belgrade (Dragan Kovac) is the logistical bridge between six otherwise-isolated smash-and-grab cells. Each hit is preceded ~40h by a burst of prepaid-SIM activations in the target city. \"Ivan Petrov\" and \"John Smith\" are one operative on a forged passport.",
+  "entities": [
+    {
+      "id": "broker",
+      "type": "person",
+      "name": "Dragan Kovac (Belgrade car-rental)",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "isPrimaryTarget": true,
+      "notes": "Never robs. Rents the getaway cars for every cell."
+    },
+    {
+      "id": "store_mad",
+      "type": "organization",
+      "name": "Jewelry store — Madrid",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "confirmed",
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      },
+      "earliestEventDate": "2026-03-10"
+    },
+    {
+      "id": "hotel_mad_1",
+      "type": "location",
+      "name": "Hotel 1 — Madrid",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    {
+      "id": "hotel_mad_2",
+      "type": "location",
+      "name": "Hotel 2 — Madrid",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    {
+      "id": "mad_t1",
+      "type": "person",
+      "name": "Madrid thief 1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "mad_t2",
+      "type": "person",
+      "name": "Madrid thief 2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "mad_t3",
+      "type": "person",
+      "name": "Madrid thief 3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "mad_t4",
+      "type": "person",
+      "name": "Madrid thief 4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "mad_t5",
+      "type": "person",
+      "name": "Madrid thief 5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "mad_t6",
+      "type": "person",
+      "name": "Madrid thief 6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "mad_sim1",
+      "type": "communication",
+      "name": "Prepaid SIM Madrid-1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-08T18:30:00.000Z",
+        "city": "Madrid"
+      },
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    {
+      "id": "mad_sim2",
+      "type": "communication",
+      "name": "Prepaid SIM Madrid-2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-08T19:00:00.000Z",
+        "city": "Madrid"
+      },
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    {
+      "id": "mad_sim3",
+      "type": "communication",
+      "name": "Prepaid SIM Madrid-3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-08T19:30:00.000Z",
+        "city": "Madrid"
+      },
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    {
+      "id": "mad_sim4",
+      "type": "communication",
+      "name": "Prepaid SIM Madrid-4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-08T20:00:00.000Z",
+        "city": "Madrid"
+      },
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    {
+      "id": "mad_sim5",
+      "type": "communication",
+      "name": "Prepaid SIM Madrid-5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-08T20:30:00.000Z",
+        "city": "Madrid"
+      },
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    {
+      "id": "mad_sim6",
+      "type": "communication",
+      "name": "Prepaid SIM Madrid-6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-08T21:00:00.000Z",
+        "city": "Madrid"
+      },
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    {
+      "id": "mad_sim7",
+      "type": "communication",
+      "name": "Prepaid SIM Madrid-7",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-08T21:30:00.000Z",
+        "city": "Madrid"
+      },
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    {
+      "id": "mad_sim8",
+      "type": "communication",
+      "name": "Prepaid SIM Madrid-8",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-08T22:00:00.000Z",
+        "city": "Madrid"
+      },
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    {
+      "id": "store_tky",
+      "type": "organization",
+      "name": "Jewelry store — Tokyo",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "confirmed",
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      },
+      "earliestEventDate": "2026-03-24"
+    },
+    {
+      "id": "hotel_tky_1",
+      "type": "location",
+      "name": "Hotel 1 — Tokyo",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      }
+    },
+    {
+      "id": "hotel_tky_2",
+      "type": "location",
+      "name": "Hotel 2 — Tokyo",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      }
+    },
+    {
+      "id": "tky_t1",
+      "type": "person",
+      "name": "Tokyo thief 1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "tky_t2",
+      "type": "person",
+      "name": "Tokyo thief 2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "tky_t3",
+      "type": "person",
+      "name": "Tokyo thief 3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "tky_t4",
+      "type": "person",
+      "name": "Tokyo thief 4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "tky_t5",
+      "type": "person",
+      "name": "Tokyo thief 5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "tky_t6",
+      "type": "person",
+      "name": "Tokyo thief 6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "tky_sim1",
+      "type": "communication",
+      "name": "Prepaid SIM Tokyo-1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-22T09:30:00.000Z",
+        "city": "Tokyo"
+      },
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      }
+    },
+    {
+      "id": "tky_sim2",
+      "type": "communication",
+      "name": "Prepaid SIM Tokyo-2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-22T10:00:00.000Z",
+        "city": "Tokyo"
+      },
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      }
+    },
+    {
+      "id": "tky_sim3",
+      "type": "communication",
+      "name": "Prepaid SIM Tokyo-3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-22T10:30:00.000Z",
+        "city": "Tokyo"
+      },
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      }
+    },
+    {
+      "id": "tky_sim4",
+      "type": "communication",
+      "name": "Prepaid SIM Tokyo-4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-22T11:00:00.000Z",
+        "city": "Tokyo"
+      },
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      }
+    },
+    {
+      "id": "tky_sim5",
+      "type": "communication",
+      "name": "Prepaid SIM Tokyo-5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-22T11:30:00.000Z",
+        "city": "Tokyo"
+      },
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      }
+    },
+    {
+      "id": "tky_sim6",
+      "type": "communication",
+      "name": "Prepaid SIM Tokyo-6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-22T12:00:00.000Z",
+        "city": "Tokyo"
+      },
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      }
+    },
+    {
+      "id": "tky_sim7",
+      "type": "communication",
+      "name": "Prepaid SIM Tokyo-7",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-22T12:30:00.000Z",
+        "city": "Tokyo"
+      },
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      }
+    },
+    {
+      "id": "tky_sim8",
+      "type": "communication",
+      "name": "Prepaid SIM Tokyo-8",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-03-22T13:00:00.000Z",
+        "city": "Tokyo"
+      },
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      }
+    },
+    {
+      "id": "store_gva",
+      "type": "organization",
+      "name": "Jewelry store — Geneva",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "confirmed",
+      "coords": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      },
+      "earliestEventDate": "2026-04-07"
+    },
+    {
+      "id": "hotel_gva_1",
+      "type": "location",
+      "name": "Hotel 1 — Geneva",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      }
+    },
+    {
+      "id": "hotel_gva_2",
+      "type": "location",
+      "name": "Hotel 2 — Geneva",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      }
+    },
+    {
+      "id": "gva_t1",
+      "type": "person",
+      "name": "Geneva thief 1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "gva_t2",
+      "type": "person",
+      "name": "Geneva thief 2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "gva_t3",
+      "type": "person",
+      "name": "Geneva thief 3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "gva_t4",
+      "type": "person",
+      "name": "Geneva thief 4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "gva_t5",
+      "type": "person",
+      "name": "Geneva thief 5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "gva_t6",
+      "type": "person",
+      "name": "Geneva thief 6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "gva_sim1",
+      "type": "communication",
+      "name": "Prepaid SIM Geneva-1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-05T17:30:00.000Z",
+        "city": "Geneva"
+      },
+      "coords": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      }
+    },
+    {
+      "id": "gva_sim2",
+      "type": "communication",
+      "name": "Prepaid SIM Geneva-2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-05T18:00:00.000Z",
+        "city": "Geneva"
+      },
+      "coords": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      }
+    },
+    {
+      "id": "gva_sim3",
+      "type": "communication",
+      "name": "Prepaid SIM Geneva-3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-05T18:30:00.000Z",
+        "city": "Geneva"
+      },
+      "coords": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      }
+    },
+    {
+      "id": "gva_sim4",
+      "type": "communication",
+      "name": "Prepaid SIM Geneva-4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-05T19:00:00.000Z",
+        "city": "Geneva"
+      },
+      "coords": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      }
+    },
+    {
+      "id": "gva_sim5",
+      "type": "communication",
+      "name": "Prepaid SIM Geneva-5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-05T19:30:00.000Z",
+        "city": "Geneva"
+      },
+      "coords": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      }
+    },
+    {
+      "id": "gva_sim6",
+      "type": "communication",
+      "name": "Prepaid SIM Geneva-6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-05T20:00:00.000Z",
+        "city": "Geneva"
+      },
+      "coords": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      }
+    },
+    {
+      "id": "gva_sim7",
+      "type": "communication",
+      "name": "Prepaid SIM Geneva-7",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-05T20:30:00.000Z",
+        "city": "Geneva"
+      },
+      "coords": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      }
+    },
+    {
+      "id": "gva_sim8",
+      "type": "communication",
+      "name": "Prepaid SIM Geneva-8",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-05T21:00:00.000Z",
+        "city": "Geneva"
+      },
+      "coords": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      }
+    },
+    {
+      "id": "store_par",
+      "type": "organization",
+      "name": "Jewelry store — Paris",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "confirmed",
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "earliestEventDate": "2026-04-21"
+    },
+    {
+      "id": "hotel_par_1",
+      "type": "location",
+      "name": "Hotel 1 — Paris",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": "hotel_par_2",
+      "type": "location",
+      "name": "Hotel 2 — Paris",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": "par_t1",
+      "type": "person",
+      "name": "Paris thief 1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "par_t2",
+      "type": "person",
+      "name": "Paris thief 2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "par_t3",
+      "type": "person",
+      "name": "Paris thief 3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "par_t4",
+      "type": "person",
+      "name": "Paris thief 4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "par_t5",
+      "type": "person",
+      "name": "Paris thief 5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "par_t6",
+      "type": "person",
+      "name": "Paris thief 6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "par_sim1",
+      "type": "communication",
+      "name": "Prepaid SIM Paris-1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-19T15:30:00.000Z",
+        "city": "Paris"
+      },
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": "par_sim2",
+      "type": "communication",
+      "name": "Prepaid SIM Paris-2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-19T16:00:00.000Z",
+        "city": "Paris"
+      },
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": "par_sim3",
+      "type": "communication",
+      "name": "Prepaid SIM Paris-3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-19T16:30:00.000Z",
+        "city": "Paris"
+      },
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": "par_sim4",
+      "type": "communication",
+      "name": "Prepaid SIM Paris-4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-19T17:00:00.000Z",
+        "city": "Paris"
+      },
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": "par_sim5",
+      "type": "communication",
+      "name": "Prepaid SIM Paris-5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-19T17:30:00.000Z",
+        "city": "Paris"
+      },
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": "par_sim6",
+      "type": "communication",
+      "name": "Prepaid SIM Paris-6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-19T18:00:00.000Z",
+        "city": "Paris"
+      },
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": "par_sim7",
+      "type": "communication",
+      "name": "Prepaid SIM Paris-7",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-19T18:30:00.000Z",
+        "city": "Paris"
+      },
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": "par_sim8",
+      "type": "communication",
+      "name": "Prepaid SIM Paris-8",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-04-19T19:00:00.000Z",
+        "city": "Paris"
+      },
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": "store_dxb",
+      "type": "organization",
+      "name": "Jewelry store — Dubai",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "confirmed",
+      "coords": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      },
+      "earliestEventDate": "2026-05-05"
+    },
+    {
+      "id": "hotel_dxb_1",
+      "type": "location",
+      "name": "Hotel 1 — Dubai",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      }
+    },
+    {
+      "id": "hotel_dxb_2",
+      "type": "location",
+      "name": "Hotel 2 — Dubai",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      }
+    },
+    {
+      "id": "dxb_t1",
+      "type": "person",
+      "name": "Dubai thief 1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "dxb_t2",
+      "type": "person",
+      "name": "Dubai thief 2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "dxb_t3",
+      "type": "person",
+      "name": "Dubai thief 3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "dxb_t4",
+      "type": "person",
+      "name": "Dubai thief 4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "dxb_t5",
+      "type": "person",
+      "name": "Dubai thief 5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "dxb_t6",
+      "type": "person",
+      "name": "Dubai thief 6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "dxb_sim1",
+      "type": "communication",
+      "name": "Prepaid SIM Dubai-1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-03T13:30:00.000Z",
+        "city": "Dubai"
+      },
+      "coords": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      }
+    },
+    {
+      "id": "dxb_sim2",
+      "type": "communication",
+      "name": "Prepaid SIM Dubai-2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-03T14:00:00.000Z",
+        "city": "Dubai"
+      },
+      "coords": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      }
+    },
+    {
+      "id": "dxb_sim3",
+      "type": "communication",
+      "name": "Prepaid SIM Dubai-3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-03T14:30:00.000Z",
+        "city": "Dubai"
+      },
+      "coords": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      }
+    },
+    {
+      "id": "dxb_sim4",
+      "type": "communication",
+      "name": "Prepaid SIM Dubai-4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-03T15:00:00.000Z",
+        "city": "Dubai"
+      },
+      "coords": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      }
+    },
+    {
+      "id": "dxb_sim5",
+      "type": "communication",
+      "name": "Prepaid SIM Dubai-5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-03T15:30:00.000Z",
+        "city": "Dubai"
+      },
+      "coords": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      }
+    },
+    {
+      "id": "dxb_sim6",
+      "type": "communication",
+      "name": "Prepaid SIM Dubai-6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-03T16:00:00.000Z",
+        "city": "Dubai"
+      },
+      "coords": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      }
+    },
+    {
+      "id": "dxb_sim7",
+      "type": "communication",
+      "name": "Prepaid SIM Dubai-7",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-03T16:30:00.000Z",
+        "city": "Dubai"
+      },
+      "coords": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      }
+    },
+    {
+      "id": "dxb_sim8",
+      "type": "communication",
+      "name": "Prepaid SIM Dubai-8",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-03T17:00:00.000Z",
+        "city": "Dubai"
+      },
+      "coords": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      }
+    },
+    {
+      "id": "store_hkg",
+      "type": "organization",
+      "name": "Jewelry store — HongKong",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "confirmed",
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      },
+      "earliestEventDate": "2026-05-19"
+    },
+    {
+      "id": "hotel_hkg_1",
+      "type": "location",
+      "name": "Hotel 1 — HongKong",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      }
+    },
+    {
+      "id": "hotel_hkg_2",
+      "type": "location",
+      "name": "Hotel 2 — HongKong",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      }
+    },
+    {
+      "id": "hkg_t1",
+      "type": "person",
+      "name": "HongKong thief 1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "hkg_t2",
+      "type": "person",
+      "name": "HongKong thief 2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "hkg_t3",
+      "type": "person",
+      "name": "HongKong thief 3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "hkg_t4",
+      "type": "person",
+      "name": "HongKong thief 4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "hkg_t5",
+      "type": "person",
+      "name": "HongKong thief 5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "hkg_t6",
+      "type": "person",
+      "name": "HongKong thief 6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance"
+    },
+    {
+      "id": "hkg_sim1",
+      "type": "communication",
+      "name": "Prepaid SIM HongKong-1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-17T11:30:00.000Z",
+        "city": "HongKong"
+      },
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      }
+    },
+    {
+      "id": "hkg_sim2",
+      "type": "communication",
+      "name": "Prepaid SIM HongKong-2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-17T12:00:00.000Z",
+        "city": "HongKong"
+      },
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      }
+    },
+    {
+      "id": "hkg_sim3",
+      "type": "communication",
+      "name": "Prepaid SIM HongKong-3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-17T12:30:00.000Z",
+        "city": "HongKong"
+      },
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      }
+    },
+    {
+      "id": "hkg_sim4",
+      "type": "communication",
+      "name": "Prepaid SIM HongKong-4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-17T13:00:00.000Z",
+        "city": "HongKong"
+      },
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      }
+    },
+    {
+      "id": "hkg_sim5",
+      "type": "communication",
+      "name": "Prepaid SIM HongKong-5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-17T13:30:00.000Z",
+        "city": "HongKong"
+      },
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      }
+    },
+    {
+      "id": "hkg_sim6",
+      "type": "communication",
+      "name": "Prepaid SIM HongKong-6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-17T14:00:00.000Z",
+        "city": "HongKong"
+      },
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      }
+    },
+    {
+      "id": "hkg_sim7",
+      "type": "communication",
+      "name": "Prepaid SIM HongKong-7",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-17T14:30:00.000Z",
+        "city": "HongKong"
+      },
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      }
+    },
+    {
+      "id": "hkg_sim8",
+      "type": "communication",
+      "name": "Prepaid SIM HongKong-8",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "surveillance",
+      "attributes": {
+        "activated": "2026-05-17T15:00:00.000Z",
+        "city": "HongKong"
+      },
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      }
+    },
+    {
+      "id": "decoy",
+      "type": "person",
+      "name": "Hotel-chain rep (decoy bridge)",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise1",
+      "type": "person",
+      "name": "Unrelated person 1",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise2",
+      "type": "person",
+      "name": "Unrelated person 2",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise3",
+      "type": "person",
+      "name": "Unrelated person 3",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise4",
+      "type": "person",
+      "name": "Unrelated person 4",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise5",
+      "type": "person",
+      "name": "Unrelated person 5",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise6",
+      "type": "person",
+      "name": "Unrelated person 6",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise7",
+      "type": "person",
+      "name": "Unrelated person 7",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise8",
+      "type": "person",
+      "name": "Unrelated person 8",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise9",
+      "type": "person",
+      "name": "Unrelated person 9",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise10",
+      "type": "person",
+      "name": "Unrelated person 10",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise11",
+      "type": "person",
+      "name": "Unrelated person 11",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise12",
+      "type": "person",
+      "name": "Unrelated person 12",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise13",
+      "type": "person",
+      "name": "Unrelated person 13",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise14",
+      "type": "person",
+      "name": "Unrelated person 14",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise15",
+      "type": "person",
+      "name": "Unrelated person 15",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise16",
+      "type": "person",
+      "name": "Unrelated person 16",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise17",
+      "type": "person",
+      "name": "Unrelated person 17",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise18",
+      "type": "person",
+      "name": "Unrelated person 18",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise19",
+      "type": "person",
+      "name": "Unrelated person 19",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise20",
+      "type": "person",
+      "name": "Unrelated person 20",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise21",
+      "type": "person",
+      "name": "Unrelated person 21",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise22",
+      "type": "person",
+      "name": "Unrelated person 22",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise23",
+      "type": "person",
+      "name": "Unrelated person 23",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise24",
+      "type": "person",
+      "name": "Unrelated person 24",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise25",
+      "type": "person",
+      "name": "Unrelated person 25",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise26",
+      "type": "person",
+      "name": "Unrelated person 26",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise27",
+      "type": "person",
+      "name": "Unrelated person 27",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise28",
+      "type": "person",
+      "name": "Unrelated person 28",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise29",
+      "type": "person",
+      "name": "Unrelated person 29",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise30",
+      "type": "person",
+      "name": "Unrelated person 30",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise31",
+      "type": "person",
+      "name": "Unrelated person 31",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise32",
+      "type": "person",
+      "name": "Unrelated person 32",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise33",
+      "type": "person",
+      "name": "Unrelated person 33",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise34",
+      "type": "person",
+      "name": "Unrelated person 34",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise35",
+      "type": "person",
+      "name": "Unrelated person 35",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise36",
+      "type": "person",
+      "name": "Unrelated person 36",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise37",
+      "type": "person",
+      "name": "Unrelated person 37",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise38",
+      "type": "person",
+      "name": "Unrelated person 38",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise39",
+      "type": "person",
+      "name": "Unrelated person 39",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise40",
+      "type": "person",
+      "name": "Unrelated person 40",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise41",
+      "type": "person",
+      "name": "Unrelated person 41",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise42",
+      "type": "person",
+      "name": "Unrelated person 42",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise43",
+      "type": "person",
+      "name": "Unrelated person 43",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise44",
+      "type": "person",
+      "name": "Unrelated person 44",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise45",
+      "type": "person",
+      "name": "Unrelated person 45",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise46",
+      "type": "person",
+      "name": "Unrelated person 46",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise47",
+      "type": "person",
+      "name": "Unrelated person 47",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise48",
+      "type": "person",
+      "name": "Unrelated person 48",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise49",
+      "type": "person",
+      "name": "Unrelated person 49",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise50",
+      "type": "person",
+      "name": "Unrelated person 50",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise51",
+      "type": "person",
+      "name": "Unrelated person 51",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise52",
+      "type": "person",
+      "name": "Unrelated person 52",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise53",
+      "type": "person",
+      "name": "Unrelated person 53",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise54",
+      "type": "person",
+      "name": "Unrelated person 54",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise55",
+      "type": "person",
+      "name": "Unrelated person 55",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise56",
+      "type": "person",
+      "name": "Unrelated person 56",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise57",
+      "type": "person",
+      "name": "Unrelated person 57",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise58",
+      "type": "person",
+      "name": "Unrelated person 58",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise59",
+      "type": "person",
+      "name": "Unrelated person 59",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "noise60",
+      "type": "person",
+      "name": "Unrelated person 60",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "unverified"
+    },
+    {
+      "id": "alias_petrov",
+      "type": "person",
+      "name": "Ivan Petrov",
+      "caseId": "PP-2026-DEMO",
+      "reliability": "documents",
+      "attributes": {
+        "phone": "+377 6 12 34 56",
+        "passport": "RS 7781234",
+        "booking": "Flight to Switzerland"
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "L1",
+      "from": "mad_t1",
+      "to": "hotel_mad_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L2",
+      "from": "mad_t1",
+      "to": "store_mad",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-10T14:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L3",
+      "from": "mad_t2",
+      "to": "hotel_mad_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L4",
+      "from": "mad_t2",
+      "to": "store_mad",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-10T14:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L5",
+      "from": "mad_t3",
+      "to": "hotel_mad_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L6",
+      "from": "mad_t3",
+      "to": "store_mad",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-10T14:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L7",
+      "from": "mad_t4",
+      "to": "hotel_mad_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L8",
+      "from": "mad_t4",
+      "to": "store_mad",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-10T14:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L9",
+      "from": "mad_t5",
+      "to": "hotel_mad_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L10",
+      "from": "mad_t5",
+      "to": "store_mad",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-10T14:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L11",
+      "from": "mad_t6",
+      "to": "hotel_mad_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L12",
+      "from": "mad_t6",
+      "to": "store_mad",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-10T14:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L13",
+      "from": "mad_t1",
+      "to": "mad_t3",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L14",
+      "from": "mad_t1",
+      "to": "mad_t4",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L15",
+      "from": "mad_t1",
+      "to": "mad_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L16",
+      "from": "mad_t1",
+      "to": "mad_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L17",
+      "from": "mad_t2",
+      "to": "mad_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L18",
+      "from": "mad_t3",
+      "to": "mad_t4",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L19",
+      "from": "mad_t3",
+      "to": "mad_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L20",
+      "from": "mad_t5",
+      "to": "mad_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L21",
+      "from": "broker",
+      "to": "mad_t1",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "rented getaway car to",
+      "confirmed": true,
+      "attributes": {
+        "label": "rented getaway car to"
+      }
+    },
+    {
+      "id": "L22",
+      "from": "mad_sim1",
+      "to": "mad_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L23",
+      "from": "mad_sim2",
+      "to": "mad_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L24",
+      "from": "mad_sim3",
+      "to": "mad_t3",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L25",
+      "from": "mad_sim4",
+      "to": "mad_t4",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L26",
+      "from": "mad_sim5",
+      "to": "mad_t5",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L27",
+      "from": "mad_sim6",
+      "to": "mad_t6",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L28",
+      "from": "mad_sim7",
+      "to": "mad_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L29",
+      "from": "mad_sim8",
+      "to": "mad_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L30",
+      "from": "tky_t1",
+      "to": "hotel_tky_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L31",
+      "from": "tky_t1",
+      "to": "store_tky",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-24T05:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L32",
+      "from": "tky_t2",
+      "to": "hotel_tky_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L33",
+      "from": "tky_t2",
+      "to": "store_tky",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-24T05:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L34",
+      "from": "tky_t3",
+      "to": "hotel_tky_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L35",
+      "from": "tky_t3",
+      "to": "store_tky",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-24T05:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L36",
+      "from": "tky_t4",
+      "to": "hotel_tky_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L37",
+      "from": "tky_t4",
+      "to": "store_tky",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-24T05:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L38",
+      "from": "tky_t5",
+      "to": "hotel_tky_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L39",
+      "from": "tky_t5",
+      "to": "store_tky",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-24T05:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L40",
+      "from": "tky_t6",
+      "to": "hotel_tky_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L41",
+      "from": "tky_t6",
+      "to": "store_tky",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-03-24T05:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L42",
+      "from": "tky_t1",
+      "to": "tky_t2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L43",
+      "from": "tky_t1",
+      "to": "tky_t3",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L44",
+      "from": "tky_t1",
+      "to": "tky_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L45",
+      "from": "tky_t1",
+      "to": "tky_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L46",
+      "from": "tky_t2",
+      "to": "tky_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L47",
+      "from": "tky_t3",
+      "to": "tky_t4",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L48",
+      "from": "broker",
+      "to": "tky_t1",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "rented getaway car to",
+      "confirmed": true,
+      "attributes": {
+        "label": "rented getaway car to"
+      }
+    },
+    {
+      "id": "L49",
+      "from": "tky_sim1",
+      "to": "tky_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L50",
+      "from": "tky_sim2",
+      "to": "tky_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L51",
+      "from": "tky_sim3",
+      "to": "tky_t3",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L52",
+      "from": "tky_sim4",
+      "to": "tky_t4",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L53",
+      "from": "tky_sim5",
+      "to": "tky_t5",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L54",
+      "from": "tky_sim6",
+      "to": "tky_t6",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L55",
+      "from": "tky_sim7",
+      "to": "tky_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L56",
+      "from": "tky_sim8",
+      "to": "tky_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L57",
+      "from": "gva_t1",
+      "to": "hotel_gva_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L58",
+      "from": "gva_t1",
+      "to": "store_gva",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-07T13:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L59",
+      "from": "gva_t2",
+      "to": "hotel_gva_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L60",
+      "from": "gva_t2",
+      "to": "store_gva",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-07T13:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L61",
+      "from": "gva_t3",
+      "to": "hotel_gva_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L62",
+      "from": "gva_t3",
+      "to": "store_gva",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-07T13:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L63",
+      "from": "gva_t4",
+      "to": "hotel_gva_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L64",
+      "from": "gva_t4",
+      "to": "store_gva",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-07T13:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L65",
+      "from": "gva_t5",
+      "to": "hotel_gva_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L66",
+      "from": "gva_t5",
+      "to": "store_gva",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-07T13:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L67",
+      "from": "gva_t6",
+      "to": "hotel_gva_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L68",
+      "from": "gva_t6",
+      "to": "store_gva",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-07T13:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L69",
+      "from": "gva_t1",
+      "to": "gva_t3",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L70",
+      "from": "gva_t1",
+      "to": "gva_t4",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L71",
+      "from": "gva_t1",
+      "to": "gva_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L72",
+      "from": "gva_t1",
+      "to": "gva_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L73",
+      "from": "gva_t2",
+      "to": "gva_t3",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L74",
+      "from": "gva_t2",
+      "to": "gva_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L75",
+      "from": "gva_t2",
+      "to": "gva_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L76",
+      "from": "broker",
+      "to": "gva_t1",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "rented getaway car to",
+      "confirmed": true,
+      "attributes": {
+        "label": "rented getaway car to"
+      }
+    },
+    {
+      "id": "L77",
+      "from": "gva_sim1",
+      "to": "gva_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L78",
+      "from": "gva_sim2",
+      "to": "gva_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L79",
+      "from": "gva_sim3",
+      "to": "gva_t3",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L80",
+      "from": "gva_sim4",
+      "to": "gva_t4",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L81",
+      "from": "gva_sim5",
+      "to": "gva_t5",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L82",
+      "from": "gva_sim6",
+      "to": "gva_t6",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L83",
+      "from": "gva_sim7",
+      "to": "gva_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L84",
+      "from": "gva_sim8",
+      "to": "gva_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L85",
+      "from": "par_t1",
+      "to": "hotel_par_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L86",
+      "from": "par_t1",
+      "to": "store_par",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-21T11:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L87",
+      "from": "par_t2",
+      "to": "hotel_par_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L88",
+      "from": "par_t2",
+      "to": "store_par",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-21T11:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L89",
+      "from": "par_t3",
+      "to": "hotel_par_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L90",
+      "from": "par_t3",
+      "to": "store_par",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-21T11:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L91",
+      "from": "par_t4",
+      "to": "hotel_par_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L92",
+      "from": "par_t4",
+      "to": "store_par",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-21T11:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L93",
+      "from": "par_t5",
+      "to": "hotel_par_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L94",
+      "from": "par_t5",
+      "to": "store_par",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-21T11:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L95",
+      "from": "par_t6",
+      "to": "hotel_par_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L96",
+      "from": "par_t6",
+      "to": "store_par",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-04-21T11:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L97",
+      "from": "par_t1",
+      "to": "par_t3",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L98",
+      "from": "par_t1",
+      "to": "par_t4",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L99",
+      "from": "par_t1",
+      "to": "par_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L100",
+      "from": "par_t1",
+      "to": "par_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L101",
+      "from": "par_t2",
+      "to": "par_t3",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L102",
+      "from": "par_t2",
+      "to": "par_t4",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L103",
+      "from": "par_t3",
+      "to": "par_t4",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L104",
+      "from": "par_t3",
+      "to": "par_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L105",
+      "from": "par_t3",
+      "to": "par_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L106",
+      "from": "par_t4",
+      "to": "par_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L107",
+      "from": "par_t5",
+      "to": "par_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L108",
+      "from": "broker",
+      "to": "par_t1",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "rented getaway car to",
+      "confirmed": true,
+      "attributes": {
+        "label": "rented getaway car to"
+      }
+    },
+    {
+      "id": "L109",
+      "from": "par_sim1",
+      "to": "par_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L110",
+      "from": "par_sim2",
+      "to": "par_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L111",
+      "from": "par_sim3",
+      "to": "par_t3",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L112",
+      "from": "par_sim4",
+      "to": "par_t4",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L113",
+      "from": "par_sim5",
+      "to": "par_t5",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L114",
+      "from": "par_sim6",
+      "to": "par_t6",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L115",
+      "from": "par_sim7",
+      "to": "par_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L116",
+      "from": "par_sim8",
+      "to": "par_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L117",
+      "from": "dxb_t1",
+      "to": "hotel_dxb_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L118",
+      "from": "dxb_t1",
+      "to": "store_dxb",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-05T09:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L119",
+      "from": "dxb_t2",
+      "to": "hotel_dxb_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L120",
+      "from": "dxb_t2",
+      "to": "store_dxb",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-05T09:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L121",
+      "from": "dxb_t3",
+      "to": "hotel_dxb_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L122",
+      "from": "dxb_t3",
+      "to": "store_dxb",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-05T09:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L123",
+      "from": "dxb_t4",
+      "to": "hotel_dxb_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L124",
+      "from": "dxb_t4",
+      "to": "store_dxb",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-05T09:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L125",
+      "from": "dxb_t5",
+      "to": "hotel_dxb_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L126",
+      "from": "dxb_t5",
+      "to": "store_dxb",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-05T09:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L127",
+      "from": "dxb_t6",
+      "to": "hotel_dxb_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L128",
+      "from": "dxb_t6",
+      "to": "store_dxb",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-05T09:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L129",
+      "from": "dxb_t1",
+      "to": "dxb_t4",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L130",
+      "from": "dxb_t1",
+      "to": "dxb_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L131",
+      "from": "dxb_t1",
+      "to": "dxb_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L132",
+      "from": "dxb_t2",
+      "to": "dxb_t3",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L133",
+      "from": "dxb_t2",
+      "to": "dxb_t4",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L134",
+      "from": "dxb_t2",
+      "to": "dxb_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L135",
+      "from": "dxb_t4",
+      "to": "dxb_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L136",
+      "from": "broker",
+      "to": "dxb_t1",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "rented getaway car to",
+      "confirmed": true,
+      "attributes": {
+        "label": "rented getaway car to"
+      }
+    },
+    {
+      "id": "L137",
+      "from": "dxb_sim1",
+      "to": "dxb_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L138",
+      "from": "dxb_sim2",
+      "to": "dxb_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L139",
+      "from": "dxb_sim3",
+      "to": "dxb_t3",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L140",
+      "from": "dxb_sim4",
+      "to": "dxb_t4",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L141",
+      "from": "dxb_sim5",
+      "to": "dxb_t5",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L142",
+      "from": "dxb_sim6",
+      "to": "dxb_t6",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L143",
+      "from": "dxb_sim7",
+      "to": "dxb_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L144",
+      "from": "dxb_sim8",
+      "to": "dxb_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L145",
+      "from": "hkg_t1",
+      "to": "hotel_hkg_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L146",
+      "from": "hkg_t1",
+      "to": "store_hkg",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-19T07:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L147",
+      "from": "hkg_t2",
+      "to": "hotel_hkg_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L148",
+      "from": "hkg_t2",
+      "to": "store_hkg",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-19T07:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L149",
+      "from": "hkg_t3",
+      "to": "hotel_hkg_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L150",
+      "from": "hkg_t3",
+      "to": "store_hkg",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-19T07:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L151",
+      "from": "hkg_t4",
+      "to": "hotel_hkg_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L152",
+      "from": "hkg_t4",
+      "to": "store_hkg",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-19T07:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L153",
+      "from": "hkg_t5",
+      "to": "hotel_hkg_2",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L154",
+      "from": "hkg_t5",
+      "to": "store_hkg",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-19T07:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L155",
+      "from": "hkg_t6",
+      "to": "hotel_hkg_1",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "checked into",
+      "confirmed": true,
+      "attributes": {
+        "label": "checked into"
+      }
+    },
+    {
+      "id": "L156",
+      "from": "hkg_t6",
+      "to": "store_hkg",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "present at robbery",
+      "confirmed": true,
+      "validFrom": "2026-05-19T07:00:00Z",
+      "attributes": {
+        "label": "present at robbery"
+      }
+    },
+    {
+      "id": "L157",
+      "from": "hkg_t1",
+      "to": "hkg_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L158",
+      "from": "hkg_t1",
+      "to": "hkg_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L159",
+      "from": "hkg_t2",
+      "to": "hkg_t3",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L160",
+      "from": "hkg_t2",
+      "to": "hkg_t4",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L161",
+      "from": "hkg_t2",
+      "to": "hkg_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L162",
+      "from": "hkg_t3",
+      "to": "hkg_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L163",
+      "from": "hkg_t4",
+      "to": "hkg_t5",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L164",
+      "from": "hkg_t5",
+      "to": "hkg_t6",
+      "lineStyle": "solid",
+      "reliability": "documents",
+      "sourceRef": "co-offender",
+      "confirmed": true,
+      "attributes": {
+        "label": "co-offender"
+      }
+    },
+    {
+      "id": "L165",
+      "from": "broker",
+      "to": "hkg_t1",
+      "lineStyle": "solid",
+      "reliability": "surveillance",
+      "sourceRef": "rented getaway car to",
+      "confirmed": true,
+      "attributes": {
+        "label": "rented getaway car to"
+      }
+    },
+    {
+      "id": "L166",
+      "from": "hkg_sim1",
+      "to": "hkg_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L167",
+      "from": "hkg_sim2",
+      "to": "hkg_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L168",
+      "from": "hkg_sim3",
+      "to": "hkg_t3",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L169",
+      "from": "hkg_sim4",
+      "to": "hkg_t4",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L170",
+      "from": "hkg_sim5",
+      "to": "hkg_t5",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L171",
+      "from": "hkg_sim6",
+      "to": "hkg_t6",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L172",
+      "from": "hkg_sim7",
+      "to": "hkg_t1",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L173",
+      "from": "hkg_sim8",
+      "to": "hkg_t2",
+      "lineStyle": "dotted",
+      "reliability": "surveillance",
+      "sourceRef": "used by",
+      "confirmed": true,
+      "attributes": {
+        "label": "used by"
+      }
+    },
+    {
+      "id": "L174",
+      "from": "decoy",
+      "to": "mad_t1",
+      "lineStyle": "dashed",
+      "reliability": "unverified",
+      "sourceRef": "booked room for",
+      "confirmed": true,
+      "attributes": {
+        "label": "booked room for"
+      }
+    },
+    {
+      "id": "L175",
+      "from": "decoy",
+      "to": "par_t1",
+      "lineStyle": "dashed",
+      "reliability": "unverified",
+      "sourceRef": "booked room for",
+      "confirmed": true,
+      "attributes": {
+        "label": "booked room for"
+      }
+    },
+    {
+      "id": "L176",
+      "from": "noise1",
+      "to": "noise58",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L177",
+      "from": "noise1",
+      "to": "noise2",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L178",
+      "from": "noise2",
+      "to": "noise57",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L179",
+      "from": "noise2",
+      "to": "noise57",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L180",
+      "from": "noise3",
+      "to": "noise37",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L181",
+      "from": "noise3",
+      "to": "noise38",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L182",
+      "from": "noise4",
+      "to": "noise32",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L183",
+      "from": "noise4",
+      "to": "noise28",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L184",
+      "from": "noise5",
+      "to": "noise31",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L185",
+      "from": "noise5",
+      "to": "noise14",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L186",
+      "from": "noise6",
+      "to": "noise14",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L187",
+      "from": "noise7",
+      "to": "noise20",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L188",
+      "from": "noise7",
+      "to": "noise60",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L189",
+      "from": "noise8",
+      "to": "noise39",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L190",
+      "from": "noise8",
+      "to": "noise14",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L191",
+      "from": "noise9",
+      "to": "noise43",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L192",
+      "from": "noise9",
+      "to": "noise18",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L193",
+      "from": "noise10",
+      "to": "noise43",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L194",
+      "from": "noise10",
+      "to": "noise54",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L195",
+      "from": "noise11",
+      "to": "noise16",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L196",
+      "from": "noise11",
+      "to": "noise4",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L197",
+      "from": "noise12",
+      "to": "noise33",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L198",
+      "from": "noise12",
+      "to": "noise47",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L199",
+      "from": "noise13",
+      "to": "noise39",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L200",
+      "from": "noise13",
+      "to": "noise15",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L201",
+      "from": "noise14",
+      "to": "noise46",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L202",
+      "from": "noise14",
+      "to": "noise57",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L203",
+      "from": "noise15",
+      "to": "noise11",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L204",
+      "from": "noise15",
+      "to": "noise2",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L205",
+      "from": "noise16",
+      "to": "noise15",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L206",
+      "from": "noise16",
+      "to": "noise11",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L207",
+      "from": "noise17",
+      "to": "noise28",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L208",
+      "from": "noise17",
+      "to": "noise15",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L209",
+      "from": "noise18",
+      "to": "noise47",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L210",
+      "from": "noise18",
+      "to": "noise16",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L211",
+      "from": "noise19",
+      "to": "noise4",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L212",
+      "from": "noise19",
+      "to": "noise12",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L213",
+      "from": "noise20",
+      "to": "noise21",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L214",
+      "from": "noise20",
+      "to": "noise3",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L215",
+      "from": "noise21",
+      "to": "noise50",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L216",
+      "from": "noise21",
+      "to": "noise1",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L217",
+      "from": "noise22",
+      "to": "noise53",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L218",
+      "from": "noise22",
+      "to": "noise5",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L219",
+      "from": "noise23",
+      "to": "noise43",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L220",
+      "from": "noise23",
+      "to": "noise12",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L221",
+      "from": "noise24",
+      "to": "noise47",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L222",
+      "from": "noise24",
+      "to": "noise20",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L223",
+      "from": "noise25",
+      "to": "noise23",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L224",
+      "from": "noise25",
+      "to": "noise33",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L225",
+      "from": "noise26",
+      "to": "noise42",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L226",
+      "from": "noise27",
+      "to": "noise44",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L227",
+      "from": "noise27",
+      "to": "noise41",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L228",
+      "from": "noise28",
+      "to": "noise25",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L229",
+      "from": "noise28",
+      "to": "noise19",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L230",
+      "from": "noise29",
+      "to": "noise37",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L231",
+      "from": "noise29",
+      "to": "noise48",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L232",
+      "from": "noise30",
+      "to": "noise55",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L233",
+      "from": "noise30",
+      "to": "noise24",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L234",
+      "from": "noise31",
+      "to": "noise4",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L235",
+      "from": "noise31",
+      "to": "noise5",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L236",
+      "from": "noise32",
+      "to": "noise54",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L237",
+      "from": "noise32",
+      "to": "noise34",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L238",
+      "from": "noise33",
+      "to": "noise35",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L239",
+      "from": "noise33",
+      "to": "noise54",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L240",
+      "from": "noise34",
+      "to": "noise50",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L241",
+      "from": "noise34",
+      "to": "noise51",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L242",
+      "from": "noise35",
+      "to": "noise52",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L243",
+      "from": "noise35",
+      "to": "noise3",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L244",
+      "from": "noise36",
+      "to": "noise24",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L245",
+      "from": "noise36",
+      "to": "noise25",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L246",
+      "from": "noise37",
+      "to": "noise3",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L247",
+      "from": "noise37",
+      "to": "noise29",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L248",
+      "from": "noise38",
+      "to": "noise41",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L249",
+      "from": "noise38",
+      "to": "noise37",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L250",
+      "from": "noise39",
+      "to": "noise51",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L251",
+      "from": "noise39",
+      "to": "noise41",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L252",
+      "from": "noise40",
+      "to": "noise2",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L253",
+      "from": "noise41",
+      "to": "noise50",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L254",
+      "from": "noise41",
+      "to": "noise34",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L255",
+      "from": "noise42",
+      "to": "noise19",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L256",
+      "from": "noise42",
+      "to": "noise10",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L257",
+      "from": "noise43",
+      "to": "noise11",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L258",
+      "from": "noise43",
+      "to": "noise2",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L259",
+      "from": "noise44",
+      "to": "noise12",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L260",
+      "from": "noise44",
+      "to": "noise43",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L261",
+      "from": "noise45",
+      "to": "noise5",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L262",
+      "from": "noise45",
+      "to": "noise10",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L263",
+      "from": "noise46",
+      "to": "noise42",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L264",
+      "from": "noise46",
+      "to": "noise8",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L265",
+      "from": "noise47",
+      "to": "noise11",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L266",
+      "from": "noise47",
+      "to": "noise1",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L267",
+      "from": "noise48",
+      "to": "noise9",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L268",
+      "from": "noise48",
+      "to": "noise51",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L269",
+      "from": "noise49",
+      "to": "noise45",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L270",
+      "from": "noise49",
+      "to": "noise21",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L271",
+      "from": "noise50",
+      "to": "noise23",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L272",
+      "from": "noise50",
+      "to": "noise42",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L273",
+      "from": "noise51",
+      "to": "noise23",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L274",
+      "from": "noise51",
+      "to": "noise38",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L275",
+      "from": "noise52",
+      "to": "noise50",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L276",
+      "from": "noise52",
+      "to": "noise40",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L277",
+      "from": "noise53",
+      "to": "noise25",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L278",
+      "from": "noise53",
+      "to": "noise1",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L279",
+      "from": "noise54",
+      "to": "noise3",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L280",
+      "from": "noise54",
+      "to": "noise3",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L281",
+      "from": "noise55",
+      "to": "noise22",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L282",
+      "from": "noise55",
+      "to": "noise32",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L283",
+      "from": "noise56",
+      "to": "noise11",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L284",
+      "from": "noise56",
+      "to": "noise45",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L285",
+      "from": "noise57",
+      "to": "noise42",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L286",
+      "from": "noise57",
+      "to": "noise24",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L287",
+      "from": "noise58",
+      "to": "noise6",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L288",
+      "from": "noise58",
+      "to": "noise17",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L289",
+      "from": "noise59",
+      "to": "noise26",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L290",
+      "from": "noise59",
+      "to": "noise44",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L291",
+      "from": "noise60",
+      "to": "noise10",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L292",
+      "from": "noise60",
+      "to": "noise39",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "associates with",
+      "confirmed": true,
+      "attributes": {
+        "label": "associates with"
+      }
+    },
+    {
+      "id": "L293",
+      "from": "noise3",
+      "to": "mad_t4",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "seen with",
+      "confirmed": true,
+      "attributes": {
+        "label": "seen with"
+      }
+    },
+    {
+      "id": "L294",
+      "from": "noise17",
+      "to": "hkg_t5",
+      "lineStyle": "dotted",
+      "reliability": "unverified",
+      "sourceRef": "seen with",
+      "confirmed": true,
+      "attributes": {
+        "label": "seen with"
+      }
+    },
+    {
+      "id": "L295",
+      "from": "alias_petrov",
+      "to": "broker",
+      "lineStyle": "dashed",
+      "reliability": "surveillance",
+      "sourceRef": "phoned",
+      "confirmed": true,
+      "attributes": {
+        "label": "phoned"
+      }
+    }
+  ],
+  "createdAt": "2026-05-22T12:53:58.707Z",
+  "updatedAt": "2026-05-22T12:53:58.707Z"
+}
