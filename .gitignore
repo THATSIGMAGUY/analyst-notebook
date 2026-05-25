@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Source code (not published — only the built HTML is tracked)
+src/
+scripts/
+starter-pack/
+
+# Vite timestamps
+*.mjs
+
+# Backups
+analyst-notebook.backup-*.html
+pink-panthers-DEMO-autoload.html
+
+# Dev files
+*.md
+!README.md
+claude-design-prompts.md
+v3-wireframe.html
+v3-hume-enhancements.md
+i2_vs_hume_comparison.md
+FEATURE-PLAN-*.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
