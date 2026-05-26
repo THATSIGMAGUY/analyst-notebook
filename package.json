@@ -1,6 +1,6 @@
 {
   "name": "analyst-notebook",
-  "version": "3.7.5",
+  "version": "3.8.0",
   "private": true,
   "description": "Analyst's Notebook \u2014 i2-style link analysis tool for Thai law enforcement. Single HTML file, offline-first, file:// runnable.",
   "type": "module",
